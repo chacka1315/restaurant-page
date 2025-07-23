@@ -1,3 +1,8 @@
 import './styles.css'
 import home from './home.js';
-home()
+import menu from './menu.js'
+import contact from './contact.js'
+
+//home();
+//menu();
+contact();
