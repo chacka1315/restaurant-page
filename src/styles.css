@@ -75,9 +75,7 @@ nav button{
     padding: 5px 10px;
     font-weight: 600;
     background-color: #ffffff;
-    cursor: pointer;
-
-    
+    cursor: pointer;    
 }
 
 /* content style */
@@ -275,11 +273,11 @@ label{
 }
 
 /* for all button */
-button{
+.content button{
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-button:active{
+.content button:active{
   transform: scale(0.95);
 }
