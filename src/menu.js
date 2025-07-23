@@ -6,6 +6,8 @@ import menu5 from './assets/m5.jpg';
 import menu6 from './assets/m6.jpg';
 
 function menu() {
+    const menuPageBtn = document.querySelector('#menuBtn');
+    menuPageBtn.classList.add('buttonClicked');
     const content = document.querySelector('.content');
 
     const divMenu = document.createElement('div');

@@ -57,6 +57,18 @@ header{
     gap: 10px;
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+  font-size: 2rem;
+  color: #f0b429;
+  font-weight: 900;
+  margin-left: 50px;
+  padding: 0px 5px;
+  background-color: #008938;
 }
 
 nav{
@@ -68,15 +80,22 @@ nav{
     align-items: end;
 }
 nav button{
-    border-bottom: 5px solid #008938;
-    border-right: none;
-    border-left: none;
-    border-top: none;
+    border: none;
     padding: 5px 10px;
     font-weight: 600;
     background-color: #ffffff;
-    cursor: pointer;    
+    border-bottom: 5px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;  
+    transition:  border-color 0.3s ease-out; 
+
 }
+
+
+.buttonClicked{
+  border-bottom: 5px solid #008938;
+}
+
 
 /* content style */
 .content{
@@ -272,7 +291,7 @@ label{
 
 }
 
-/* for all button */
+/* for all content button */
 .content button{
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -280,4 +299,10 @@ label{
 
 .content button:active{
   transform: scale(0.95);
+}
+
+.content button:hover{
+  background-color: #ffffff;
+  border: 3px solid #008938;
+  color: #f0b429;
 }

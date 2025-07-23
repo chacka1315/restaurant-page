@@ -1,5 +1,7 @@
 import img from './assets/bkg.jpg';
 function contact() {
+    const contactPagetBtn = document.querySelector('#contactBtn');
+    contactPagetBtn.classList.add('buttonClicked');
     const content = document.querySelector('.content');
 
     const div = document.createElement('div');

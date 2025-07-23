@@ -1,5 +1,7 @@
 import img from './assets/bkg.jpg';
 function home() {
+    const homePageBtn = document.querySelector('#homeBtn');
+    homePageBtn.classList.add('buttonClicked');
     const content = document.querySelector(".content");
     const divPesent = document.createElement("div");
     divPesent.classList.add("divPresent");
