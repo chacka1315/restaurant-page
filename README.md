@@ -16,7 +16,7 @@ Users can switch between sections like Home, Menu, and Contact without refreshin
 - Styled layout with CSS
 - Bundled assets using Webpack for production readiness
 
-# 🎨 Live preview 
+# 🎨 Live preview | Non-responsive
 [Show the website (Voir le site)](https://chacka1315.github.io/restaurant-page/)
 
 # 🧱 Built With
