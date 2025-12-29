@@ -1,7 +1,7 @@
 import img from './assets/bkg.jpg';
 function contact() {
     const contactPagetBtn = document.querySelector('#contactBtn');
-    contactPagetBtn.classList.add('buttonClicked');
+    contactPagetBtn?.classList.add('buttonClicked');
     const content = document.querySelector('.content');
 
     const div = document.createElement('div');
@@ -18,7 +18,7 @@ function contact() {
     inputName.type = 'text';
     inputName.id = 'name';
     const labelName = document.createElement('label');
-    labelName.for = 'name';
+    labelName.htmlFor = 'name';
     labelName.textContent = "Name :";
     const divName = document.createElement('div');
 
@@ -27,7 +27,7 @@ function contact() {
     inputSurname.type = 'text';
     inputSurname.id = 'surname';
     const labelSurname = document.createElement('label');
-    labelSurname.for = 'surname';
+    labelSurname.htmlFor = 'surname';
     labelSurname.textContent = "Surname :";
     const divSurname = document.createElement('div');
 
@@ -35,14 +35,14 @@ function contact() {
     inputEmail.type = 'email';
     inputEmail.id = 'user_email';
     const labelEmail = document.createElement('label');
-    labelEmail.for = 'user_email';
+    labelEmail.htmlFor = 'user_email';
     labelEmail.textContent = "Your Email :";
     const divEmail = document.createElement('div');
 
     const msg  = document.createElement('textarea');
     msg.id = 'user_msg';
     const labelMsg = document.createElement('label');
-    labelMsg.for = 'user_msg';
+    labelMsg.htmlFor = 'user_msg';
     labelMsg.textContent = "Your message :";
     const divMsg = document.createElement('div');
 
@@ -73,7 +73,7 @@ function contact() {
     div.appendChild(title);
     div.appendChild(form);
     div.appendChild(sideImg);
-    content.appendChild(div);
+    content?.appendChild(div);
     
 
 }

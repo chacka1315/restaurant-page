@@ -300,14 +300,14 @@ label{
 .content button{
   cursor: pointer;
   transition: transform 0.3s ease;
+  box-shadow: 2px 2px 4px rgb(188, 186, 186);
 }
 
 .content button:active{
   transform: scale(0.95);
+  box-shadow: 1px 1px 1px rgb(188, 186, 186);
 }
 
 .content button:hover{
-  background-color: #ffffff;
-  border: 3px solid #008938;
   color: #f0b429;
 }

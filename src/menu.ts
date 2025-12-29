@@ -3,11 +3,11 @@ import menu2 from './assets/m2.jpg';
 import menu3 from './assets/m3.jpg';
 import menu4 from './assets/m4.jpg';
 import menu5 from './assets/m5.jpg';
-import menu6 from './assets/m6.jpg';
+import menu6 from './assets/m6.jpg' ;
 
 function menu() {
     const menuPageBtn = document.querySelector('#menuBtn');
-    menuPageBtn.classList.add('buttonClicked');
+    menuPageBtn?.classList.add('buttonClicked');
     const content = document.querySelector('.content');
 
     const divMenu = document.createElement('div');
@@ -43,11 +43,11 @@ function menu() {
                         <div>
                             <img src=${menu6}  alt="O'Clock Menu 6" />
                             <p>O'Clock Menu 6</p>
-                        </div>`
+                        </div>`;
 
     divMenu.appendChild(title);
     divMenu.appendChild(menus);
-    content.appendChild(divMenu);
+    content?.appendChild(divMenu);
 
 }
 

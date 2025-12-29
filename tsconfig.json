@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "strict": true,
+        "noEmitOnError": true,
+        "noEmit": true,
+        "target": "es2017",
+        "module": "es6",
+         "moduleResolution": "node"
+
+    }
+}

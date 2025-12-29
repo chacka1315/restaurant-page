@@ -1,7 +1,7 @@
 import img from './assets/bkg.jpg';
 function home() {
     const homePageBtn = document.querySelector('#homeBtn');
-    homePageBtn.classList.add('buttonClicked');
+    homePageBtn?.classList.add('buttonClicked');
     const content = document.querySelector(".content");
     const divPesent = document.createElement("div");
     divPesent.classList.add("divPresent");
@@ -55,8 +55,8 @@ function home() {
     divPesent.appendChild(sideImg);
     divPesent.appendChild(divTitle);
     divPesent.appendChild(sideImg);
-    content.appendChild(divPesent);
-    content.appendChild(promo);
+    content?.appendChild(divPesent);
+    content?.appendChild(promo);
 
 }
 
