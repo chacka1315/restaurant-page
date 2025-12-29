@@ -34,8 +34,8 @@ Users can switch between sections like Home, Menu, and Contact without refreshin
 # 📁 Project Structure
 ```
 ├── src/
-│   ├── index.js       # Entry point
-│   ├── modules/       # JavaScript modules for Home, Menu, Contact
+│   ├── index.ts       # Entry point
+│   ├── modules/       # TypeScript modules for Home, Menu, Contact
 │   └── style.css
 ├── dist/              # Bundled output
 ├── package.json
